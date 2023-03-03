@@ -1,0 +1,99 @@
+@font-face {
+    font-family: Idroid;
+    src: url(fontes/idroid.otf) format(opentype);
+}
+header {
+    background-image: linear-gradient(to top, darkgreen, green);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 2px 0px 5px 0px;
+}
+
+.principal {
+    text-align: center;
+    padding: 10px;
+    width: 500px;
+    margin: auto;
+}
+
+p > a {
+    background-color: rgb(100, 226, 100);
+    color: black;
+    font-weight: 600;
+    padding: 0px 5px;
+    text-decoration: none;
+}
+
+p > a:hover {
+    text-decoration: underline;
+}
+
+nav > a {
+    border-radius: 3px;
+    font-weight: 600;
+    text-decoration: none;
+    color: rgb(100, 226, 100);
+    padding: 5px 25px 3px 25px;
+}
+
+nav > a:hover {
+    background-color: rgb(11, 168, 11);
+}
+
+main {
+    background-color: bisque;
+}
+
+article {
+    background-color: white;
+    width: 1000px;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 1px 1px 7px 2px black;
+}
+
+.texttitle {
+    background-image: linear-gradient(to right, rgb(100, 226, 100), white);
+    font-family: Idroid;
+}
+
+p {
+    text-indent: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.video {
+    background-color: darkgreen;
+    padding: 10px;
+}
+
+.rpe {
+    background-color: rgb(100, 226, 100);
+    color: white;
+    border-radius: 5px 5px 0px 0px;
+    padding: 0px 10px 0px 10px ;
+}
+
+.rp {
+    background-color: rgb(11, 168, 11);
+    padding: 10px ;
+    margin-left: 0px;
+    border-radius: 5px 5px 0px 0px;
+    width: 970px;
+}
+
+footer {
+    margin: auto;
+    background-color: black;
+    color: white;
+    width: 1040px;
+    border-radius: 0px 0px 5px 5px;
+    text-align: center;
+    padding: 1px;
+}
+
+footer > p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400px;
+}

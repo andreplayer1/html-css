@@ -1,0 +1,16 @@
+body {
+    background-color:azure;
+    color: rgb(0, 255, 128);
+    font-size: 20px;
+}
+h1 {
+    color: cadetblue;
+    background-color: rgba(255, 228, 196, 0.322);
+}
+h2 {
+    color: rgb(145, 219, 221);
+    background-color: rgb(255, 228, 196);
+}
+p {
+    text-align: justify;
+}
